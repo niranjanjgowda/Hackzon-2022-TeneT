@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_blog"
+        android:title="Blog"
+        android:icon="@drawable/blog"/>
+
+    <item android:id="@+id/navigation_eLibrary"
+        android:title="Library"
+        android:icon="@drawable/papers"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/website"/>
+
+    <item android:id="@+id/navigation_campusview"
+        android:title="Scholarship"
+        android:icon="@drawable/scholarship"/>
+
+    <item android:id="@+id/navigation_gallery1"
+        android:title="Gallery"
+        android:icon="@drawable/gallery"/>
+
+    <item android:id="@+id/navigation_results"
+        android:title="Results"
+        android:icon="@drawable/notepad"/>
+
+    <item android:id="@+id/navigation_imc"
+        android:title="Internal Marks Calculator"
+        android:icon="@drawable/calculator"/>
+
+    <item android:id="@+id/navigation_cgpac"
+        android:title="CGPA Calculator"
+        android:icon="@drawable/calculator"/>
+
+    <item android:id="@+id/navigation_pc"
+        android:title="Percentange Calculator"
+        android:icon="@drawable/calculator"/>
+
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share and Update"
+        android:icon="@drawable/share"/>
+
+    <item android:id="@+id/navigation_feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"/>
+
+    <item android:id="@+id/navigation_developer"
+        android:title="Developer"
+        android:icon="@drawable/developer"/>
+</menu>

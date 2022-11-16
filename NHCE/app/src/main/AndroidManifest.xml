@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shareef.nhce">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pu_logo2"
+        android:label="NHCE"
+        android:roundIcon="@drawable/pu_logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NHCE"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Developer"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.weblink.Weblink"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Website"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".scholarship"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".gallery"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".blog"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ELibrary"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".feedback"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".internalmark"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cgpa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Results"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".percentange"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".FullImageView" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.NHCE" />
+    </application>
+
+</manifest>

@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pu_logo" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@string/bold"
+                    android:text=" VISION :-"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/title_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:justificationMode="inter_word"
+                    android:text="• To emerge as an institute of eminence in the fields of engineering, technology and management in serving the industry and the nation by empowering students with a high degree of technical, managerial and practical competence."
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@string/bold"
+                    android:text=" QUALITY POLICY :-"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/title_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:justificationMode="inter_word"
+                    android:text="• To provide educational services of the highest quality both curricular and co-curricular to enable students integrate skills and serve the industry and society equally well at global level."
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@string/bold"
+                    android:text=" MISSION :-"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/title_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:justificationMode="inter_word"
+                    android:text="• To strengthen the theoretical, practical and ethical dimensions of the learning process by fostering a culture of research and innovation among faculty members and students."
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:justificationMode="inter_word"
+                    android:text="• To encourage long-term interaction between the academia and industry through their involvement in the design of curriculum and its hands-on implementation."
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/light"
+                    android:justificationMode="inter_word"
+                    android:text="• To strengthen and mould students in professional, ethical, social and environmental dimensions by encouraging participation in co-curricular and extracurricular activities."
+                    android:textColor="@color/textColor"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:fontFamily="@string/bold"
+                    android:text="KEY EXECUTIVES"
+                    android:textColor="@color/purple_700"
+                    android:textSize="@dimen/title_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="193dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="197dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Mohan Manghnani"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="138dp"
+                            android:layout_height="90dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Chairman, New Horizon Educational Institution"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="147dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Manjunatha"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Principal"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="157dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="125dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/e3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="236dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. R.J. Anandhi"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+
+                        <TextView
+                            android:layout_width="136dp"
+                            android:layout_height="89dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Dean Academics HOD - Information science and Engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Sanjeev Sharma"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="77dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Dean-QASDC"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="171dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="73dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Prof. Gurucharan Singh"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="73dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Executive Director – Training and Placements"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="178dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="47dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Shridhar Kurse"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="85dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Automobile Engineering and Mechanical Engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="188dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. N V Uma Reddy"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="94dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Artificial Intelligence and Machine Learning"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="169dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="38dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr P.S. Niranjan"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - civil engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="51dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. B Rajalakshmi"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="91dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Computer Science and Engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="183dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. S. P. Manikandan"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="99dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Computer Engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="173dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e11"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Aravinda K"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="95dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Electronic and Communication Engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="188dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e12"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Mahesh M"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="84dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Electronics and Electrical Engineering"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e13"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Sheelan Misra"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="72dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Master of Business Administration"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="171dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e14"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Asha V"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="86dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD - Master of Computer Applications"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e15"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Revathi V"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD – Physics"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e16"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Anusuya Devi V.S"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD – Chemistry"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e17"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Srinivasa G"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="HOD – Mathematics"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e18"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Sowmya Narayanan"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Head – CLSLL"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="141dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/e19"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <TextView
+                            android:layout_width="151dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="Dr. Vijilius Helena Raj"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:text="Head – Controller of Examination"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:layout_marginBottom="@dimen/text_size"
+                        android:layout_weight="1"
+                        android:src="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:layout_marginBottom="@dimen/text_size"
+                        android:layout_weight="1"
+                        android:src="@drawable/twitter" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:layout_marginBottom="@dimen/text_size"
+                        android:layout_weight="1"
+                        android:src="@drawable/linkedin" />
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:layout_marginBottom="@dimen/text_size"
+                        android:layout_weight="1"
+                        android:src="@drawable/instagram" />
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:layout_marginBottom="@dimen/text_size"
+                        android:layout_weight="1"
+                        android:src="@drawable/youtube" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text=""
+                    android:textColor="@color/textColor"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>
